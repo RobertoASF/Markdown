@@ -5,15 +5,16 @@
 * [Enlaces](#enlaces)
   * [Enlaces simples](#enlaces-simples)
   * [Enlaces por Referencia](#enlaces-por-referencia)
-* [Imágenes](imágenes)
-  * [Enlace en línea a una imagen](enlace-en-línea-a-una-imagen)
-  * [Imágenes incluidas como referencia](Imágenes-incluidas-como-referencia)
-* [Citas](citas)
-* [Códigos](códigos)
-* [Listas](listas)
-  * [Listas no ordenadas](Listas-no-ordenadas)
-  * [Listas ordenadas](Listas-ordenadas)
-* [Párrafos](párrafos)
+* [Imágenes](#imágenes)
+  * [Enlace en línea a una imagen](#enlace-en-línea-a-una-imagen)
+  * [Imágenes incluidas como referencia](#imágenes-incluidas-como-referencia)
+* [Citas](#citas)
+* [Códigos](#códigos)
+* [Listas](#listas)
+  * [Listas no ordenadas](#listas-no-ordenadas)
+  * [Listas ordenadas](#listas-ordenadas)
+  * [Listas anidadas](#listas-anidadas)
+* [Párrafos](#párrafos)
 
 
 ## Encabezados
@@ -34,7 +35,7 @@ Para los encabezados se usan **#**, pueden ir del 1 al 6 siendo el 1 el más gra
 
   - `Ejemplo de ~~texto tachado~~` --> Ejemplo de ~~texto tachado~~
   
-## Enlaces:
+## Enlaces
 
 ### Enlaces simples
 
@@ -59,16 +60,16 @@ esto se veria así
 >[enlace]: www.github.com/RobertoASF
    
 
-## Imágenes:
+## Imágenes
  
-### Enlace en línea a una imagen:
+### Enlace en línea a una imagen
 
 Para enlazar imágenes de esta forma primero se pone un símbolo de exclamación \( \! \), encierre el texto entre corchetes \( \[ \] \), y después se encierra el enlace entre paréntesis \(  \)
    
 Ejemplo para poner una imágen de mi avatar:
 `![avatar](https://avatars.githubusercontent.com/u/63380708?s=40&v=4)` --> ![avatar](https://avatars.githubusercontent.com/u/63380708?s=40&v=4) 
 
-### Imágenes incluidas como referencia:
+### Imágenes incluidas como referencia
    para enlazar imágenes de esta forma primero se comienza con el simbolo de expclamación, luego entre corchetes el tecto y leugo dentro de otros corchetes la etiqueta de la imágen, la cual deberá ser definida al final:
    
    Ejemplo para poner una imágen por referencia:
@@ -83,7 +84,7 @@ Ejemplo para poner una imágen de mi avatar:
   
   [imagen]: https://avatars.githubusercontent.com/u/63380708?s=40&v=4 
  
-## Citas:
+## Citas
    
 Para incluir una cita hay que agregar un símbolo \> antes del comienzo de ésta, en caso que se quiera citar un texto de más de un párrafo se puede añadir este símbolo al comienzo de cada párrafo, incluso a las líneas en blanco se le puede agrgar el símbolo \>
   
@@ -111,9 +112,9 @@ Por ejemplo:
       print("x es positivo")
   ```
       
-## Listas:
+## Listas
     
-### Listas no ordenadas:
+### Listas no ordenadas
    
 Para crear una lista hay que añadir un \* \- o \+ a cada elemento indistintamente
    
@@ -123,7 +124,7 @@ Ejemplo:
 * elemento2
 * elemento3
 
-### Listas ordenadas:
+### Listas ordenadas
   
   Para crear una lista ordenada se debe anteceder el texto de el numero segudido de un un punto
   
@@ -133,7 +134,7 @@ Ejemplo:
   2. Segundo elemento   <--`2. Segundo elemento`
   3. Tercer elemento    <--`3. Tercer elemento`
   
- ### Listas anidadas:
+ ### Listas anidadas
  
  Si se requiere tener listas dentro de algún elemento de una listas estas se pueden anidar añadiendo dos espacio a los elemenentos que están dentro de otros.
  
