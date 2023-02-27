@@ -161,3 +161,27 @@ En este texto
 se agregaron dos espacios  
 al final de las palabras  
 "texto" y "esapcios"
+
+## Tablas
+
+Para mostrar una tabla se debe "dibujar" esta usando pipes | y guiones -  
+La primera fila debe comprender los encabezados de la tabla en el siguiente formato: | columna1 | columna2 | columna3 |  
+La siguiente fila sirve para indicar el alineado de cada columna, se debe rellenar con pipes y guines según la cantidad de columnas definidas, ejemplo : |--|--|--|  
+Por defecto el alineado en la tabla es a la izquierda, si se quiere que sea centrado en la segunda fila hay que indicar : al comienzo y al final, ejemplo: |:--:|, en cambio si se desea un alienado a la derecha solo debe indicarse el : a la derecha, ejemplo: |--:|  
+Las siguientes columnas corresponden a los datos que queremos que contenga la tabla, al igual que los encabezados deben ir separados por pipes.
+
+Ejemplo
+
+```markdown
+| COLUMNA1 | COLUMNA2 | COULMNA3 | COLUMNA 4|
+|----------|:--------:|---------:|----------|
+|TEXTO ALINEADO A LA IZQUIERDA | TEXTO CENTRADO | TEXTO ALINEADO A LA DERECHA | TEXTO ALINEADO A LA IZQUIERDA |
+
+```
+
+| COLUMNA 1 | COLUMNA 2 | COULMNA 3 | COLUMNA 4|
+|----------|:--------:|---------:|----------|
+|TEXTO ALINEADO A LA IZQUIERDA | TEXTO CENTRADO | TEXTO ALINEADO A LA DERECHA | TEXTO ALINEADO A LA IZQUIERDA |
+| TEXTO 1 | TEXTO 2 | TEXTO 3 | TEXTO 4|
+
+
